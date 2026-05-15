@@ -1,0 +1,43 @@
+body{
+background:#f4f6f9;
+font-family:Arial;
+}
+
+.login-body{
+background:linear-gradient(135deg,#ff416c,#ff4b2b);
+}
+
+.dashboard-card{
+border:none;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card{
+border:none;
+border-radius:20px;
+}
+
+#membersList .member-item,
+#paymentList .payment-item,
+#attendanceList .attendance-item{
+
+padding:15px;
+border-bottom:1px solid #ddd;
+
+}
+
+.btn{
+border-radius:10px;
+}
+
+.nav-pills .nav-link.active{
+background:#dc3545;
+}
+
+.member-buttons{
+margin-top:10px;
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+}
